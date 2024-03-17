@@ -1,0 +1,4 @@
+- cabling: hệ thống cáp
+- scalable: enlargeable (có thể mở rộng)
+- topology: cấu trúc liên kết (router,...) 
+- 
