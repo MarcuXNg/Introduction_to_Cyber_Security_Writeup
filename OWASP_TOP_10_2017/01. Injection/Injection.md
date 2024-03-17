@@ -16,3 +16,8 @@
 ```
     system($_REQUEST["cmd"]);
 ```
+
+Defence preventing:
+
+- Using an allow list: when input is sent to the server, this input is compared to a list of safe input or characters. If the input is marked as safe, then it is processed. Otherwise, it is rejected and the application throws an error.
+- Stripping input: If the input contains dangerous characters, these characters are removed before they are processed.
